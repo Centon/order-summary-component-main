@@ -1,0 +1,18 @@
+$mobile: 376px;
+$desktop: 1440px;
+
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+
+html{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url("../images/pattern-background-desktop.svg") no-repeat;
+}
