@@ -5,4 +5,57 @@ html {
 
 body {
   background: url("../images/pattern-background-desktop.svg") no-repeat;
+  background-color: hsl(225deg, 100%, 94%);
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+}
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.card .content {
+  text-align: center;
+  padding: 10%;
+}
+
+.boutton {
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.boutton:hover {
+  box-shadow: 0px 15px 15px hsl(225deg, 100%, 98%);
+}
+
+.choix {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+.choix img {
+  position: relative;
+  width: 15%;
+  height: 15%;
+  left: 15px;
+  top: 15px;
+}
+.choix a {
+  text-decoration: none;
+  padding: 10%;
+}
+.choix a:hover {
+  text-decoration: underline;
+}
+.choix p {
+  line-height: 150%;
+  text-align: start;
 }/*# sourceMappingURL=style.css.map */
