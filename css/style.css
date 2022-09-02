@@ -2,6 +2,7 @@
 html {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -18,10 +19,9 @@ body {
   background-color: white;
   border-radius: 10px;
   margin: auto;
+  overflow: hidden;
 }
 .card img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
   width: 100%;
 }
 .card .content {
@@ -102,7 +102,7 @@ body {
   color: black;
 }
 
-@media all and (max-width: 376px) {
+@media all and (min-width: 376px) and (max-width: 900px) {
   .card {
     width: 90%;
     justify-content: unset;

@@ -11,7 +11,7 @@ $dark-blue: hsl(223, 47%, 23%);
 html{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 body{
     background: url("../images/pattern-background-desktop.svg") no-repeat;
@@ -29,10 +29,10 @@ body{
     background-color: white;
     border-radius: 10px;
     margin: auto;
+    overflow: hidden;
     img{
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
         width: 100%;
+
     }
     .content{
         text-align: center;
@@ -122,7 +122,7 @@ body{
     font-weight: 700;
     color: black;
 }
-@media all and (max-width: $mobile) {
+@media all and (min-width: $mobile) and (max-width:900px) {
     .card{
         width: 90%;
         justify-content: unset;
